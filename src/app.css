@@ -1,0 +1,130 @@
+/* 
+colours:
+- primary (text): #333333
+- secondary: #9640e5
+*/
+
+body {
+  padding: 0;
+  max-width: 1280px;
+  margin: auto;
+  color: #333333;
+  font-family: sans-serif;
+}
+
+/*----- HEADER -----*/
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  background-color: #333333;
+}
+
+header h1 {
+  margin-left: 40px;
+  color: white;
+}
+
+#developer {
+  color: #9640e5;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  justify-self: center;
+}
+
+/*----- PHOTO AND QUOTE -----*/
+
+#photo_and_quote {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+}
+
+#main_photo {
+  height: 400px;
+}
+
+#quote {
+  justify-self: center;
+  align-self: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#author {
+  font-size: 25px;
+  color: #9640e5;
+  margin-left: 20px;
+}
+
+/*----- ABOUT ME -----*/
+
+#about_me_section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+}
+
+#my_info {
+  display: grid;
+}
+
+#profile_pic {
+  border-radius: 130px;
+  width: 250px;
+  height: 250px;
+  justify-self: center;
+  align-self: center;
+}
+
+#about_me {
+  grid-template-rows: 50px 300px;
+}
+
+#about_me h2 {
+  color: #9640e5;
+}
+
+#about_me p {
+  line-height: 1.5;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+
+/*----- My skills -----*/
+
+#my_skills {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: grid;
+}
+
+#my_skills h2 {
+  color: #9640e5;
+  justify-self: center;
+}
+
+#tech {
+  display: flex;
+  gap: 30px;
+  justify-self: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
