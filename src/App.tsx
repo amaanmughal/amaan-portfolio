@@ -15,7 +15,7 @@ function App() {
           <a href="#about_me_section">About me</a>
           <a href="#my_skills">Skills</a>
           <a href="#my_projects">Projects</a>
-          <a href="#about_me_section">Contact me</a>
+          <a href="#form_section">Contact me</a>
         </nav>
       </header>
       <main>
@@ -186,7 +186,7 @@ function App() {
           </div>
         </section>
       </main>
-      <footer>
+      <footer id="form_section">
         <h2 className="sub_headings" id="contact_heading">
           Contact me
         </h2>
