@@ -1,6 +1,6 @@
 import amaan from "./assets/amaan-removebg-preview.png";
 import weatherAppPic from "./assets/weather-app-pic.png";
-import gamesFrontendPic from "./assets/games-review-frontend.png";
+import gamesFrontendPic from "./assets/games-review-v3.png";
 import gamesBackendPic from "./assets/games-review-backend.png";
 import "./app.css";
 
@@ -61,6 +61,7 @@ function App() {
               <h2>Back-end</h2>
               <ul>
                 <li>Javascript</li>
+                <li>Typescript</li>
                 <li>PostgreSQL</li>
                 <li>node</li>
                 <li>Express</li>
@@ -140,13 +141,21 @@ function App() {
                 allows the users to put a thumbs up or a thumbs down on a review
                 or a comment.
               </p>
+
+              <p>
+                <span>Test account:</span> Username: tickle122 || Full Name: tom
+                tickle
+              </p>
               <div className="buttons_container">
-                <a target="_blank" href="https://gamespot-reviews.netlify.app">
+                <a
+                  target="_blank"
+                  href="https://main--games-review-v3.netlify.app/"
+                >
                   <button className="button">Live</button>
                 </a>
                 <a
                   target="_blank"
-                  href="https://github.com/amaanmughal/nc-games-frontend"
+                  href="https://github.com/amaanmughal/games-review-v3"
                 >
                   <button className="button">Code</button>
                 </a>
